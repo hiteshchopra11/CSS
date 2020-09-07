@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&display=swap');
+html,
+body {
+    height: 100%;
+}
+
+.root_div {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.root_child_vertical {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+    background: #43389F;
+    background: -webkit-gradient(linear, left bottom, right top, from(#43389F), to(#4ec6ca));
+    background: linear-gradient(to top right, #43389F 0%, #4ec6ca 100%);
+}
+
+.root_child_horizontal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number_one_main {
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    z-index: 4;
+    margin: -8px;
+    background-color: white;
+    width: 25px;
+    border-radius: 5px 5px 5px 5px;
+    height: 118px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.number_one_side {
+    z-index: 3;
+    position: relative;
+    bottom: 42px;
+    left: 0px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 100% 100% 3px 3px;
+    text-align: start;
+    background-color: #f0f0f0;
+    width: 20px;
+    transform: rotate(55deg);
+    height: 50px;
+    line-height: 100px;
+}
+
+.circle_one {
+    z-index: 2;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    border: 25px solid white;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0);
+    color: white;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.circle_two {
+    z-index: 1;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    margin: -14px;
+    border: 25px solid white;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0);
+    color: white;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.days {
+    color: #f0f0f0;
+    font-size: 90px;
+    margin: 0px;
+    padding: 0px;
+    word-spacing: 0%;
+    text-align: center;
+    font-family: 'Courier Prime', monospace;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+.challenge {
+    font-size: 27.5px;
+    margin: -20px 0px 0px 0px;
+    padding: 0px;
+    word-spacing: 0%;
+    color: #f0f0f0;
+    text-align: center;
+    font-family: 'Courier Prime', monospace;
+}
