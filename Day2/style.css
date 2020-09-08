@@ -1,0 +1,162 @@
+html,
+body {
+    height: 100%;
+}
+
+.root {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.root_div {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3FAF82;
+}
+
+.menu {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu_bar_one {
+    position: relative;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1);
+    width: 30px;
+    height: 3px;
+    border-radius: 2px;
+    margin-bottom: 5px;
+    background-color: aliceblue;
+    /* animation: menu_one_animation 2s forwards, cross_one_animation 1s 1s forwards; */
+}
+
+.menu_bar_two {
+    position: relative;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1);
+    width: 30px;
+    height: 3px;
+    border-radius: 2px;
+    background-color: aliceblue;
+    margin-bottom: 5px;
+    /* animation: menu_two_animation 1s forwards; */
+}
+
+.menu_bar_three {
+    position: relative;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1);
+    width: 30px;
+    height: 3px;
+    border-radius: 2px;
+    margin-bottom: 5px;
+    background-color: aliceblue;
+    /* animation: menu_three_animation 2s forwards, cross_two_animation 1s 1s forwards; */
+}
+
+@keyframes menu_one_animation {
+    0%,
+    50% {
+        top: 4px;
+    }
+    50%,
+    100% {
+        top: 8px;
+    }
+}
+
+@keyframes menu_one_animation_reverse {
+    0%,
+    50% {
+        top: 4px;
+    }
+    50%,
+    100% {
+        top: 0px;
+    }
+}
+
+@keyframes menu_three_animation {
+    0%,
+    50% {
+        bottom: 4px;
+    }
+    50%,
+    100% {
+        bottom: 8px;
+    }
+}
+
+@keyframes menu_three_animation_reverse {
+    0%,
+    50% {
+        bottom: 4px;
+    }
+    50%,
+    100% {
+        bottom: 0px;
+    }
+}
+
+@keyframes menu_two_animation {
+    100% {
+        visibility: hidden;
+    }
+}
+
+@keyframes menu_two_animation_reverse {
+    100% {
+        visibility: visible;
+    }
+}
+
+@keyframes cross_one_animation {
+    to {
+        z-index: 1;
+        background-color: white;
+        transform: rotate(135deg);
+    }
+}
+
+@keyframes cross_one_animation_reverse {
+    to {
+        z-index: 1;
+        background-color: white;
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes cross_two_animation {
+    to {
+        z-index: 1;
+        background-color: white;
+        transform: rotate(45deg);
+    }
+}
+
+@keyframes cross_two_animation_reverse {
+    to {
+        z-index: 1;
+        background-color: white;
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes rotate225 {
+    to {
+        transform: rotate(225deg);
+    }
+}
+
+@keyframes rotate45 {
+    to {
+        transform: rotate(45deg);
+    }
+}
