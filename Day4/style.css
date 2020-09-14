@@ -1,0 +1,161 @@
+html,
+body {
+    height: 100%;
+}
+
+.root {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.root_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    background-color: #e56262;
+}
+
+.circle_one {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 0px;
+    width: 0px;
+    background-color: white;
+    border-radius: 50%;
+    animation: circle_one 4s ease-in-out infinite;
+}
+
+.circle_two {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 0px;
+    width: 0px;
+    background-color: white;
+    border-radius: 50%;
+    animation: circle_two 4s ease-in-out infinite;
+}
+
+.circle_three {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    height: 0px;
+    width: 0px;
+    background-color: white;
+    border-radius: 50%;
+    animation: circle_three 4s ease-in-out infinite;
+}
+
+
+/* @keyframes circle_one {
+    24% {
+        height: 80px;
+        width: 80px;
+    }
+    73% {
+        height: 80px;
+        width: 80px;
+    }
+    100% {
+        height: 0px;
+        width: 0px;
+    }
+}
+
+@keyframes circle_two {
+    24% {
+        height: 0px;
+        width: 0px;
+    }
+    40% {
+        height: 55px;
+        width: 55px;
+    }
+    57% {
+        height: 55px;
+        width: 55px;
+    }
+    73% {
+        height: 0px;
+        width: 0px;
+    }
+}
+
+@keyframes circle_three {
+    40% {
+        height: 0px;
+        width: 0px;
+    }
+    48% {
+        height: 20px;
+        width: 20px;
+    }
+    49% {
+        height: 20px;
+        width: 20px;
+    }
+    57% {
+        height: 0px;
+        width: 0px;
+    }
+} */
+
+@keyframes circle_one {
+    20% {
+        height: 70px;
+        width: 70px;
+    }
+    80% {
+        height: 80px;
+        width: 80px;
+    }
+    100% {
+        height: 0px;
+        width: 0px;
+    }
+}
+
+@keyframes circle_two {
+    20% {
+        height: 0px;
+        width: 0px;
+    }
+    35% {
+        height: 55px;
+        width: 55px;
+    }
+    65% {
+        height: 55px;
+        width: 55px;
+    }
+    80% {
+        height: 0px;
+        width: 0px;
+    }
+}
+
+@keyframes circle_three {
+    35% {
+        height: 0px;
+        width: 0px;
+    }
+    45% {
+        height: 20px;
+        width: 20px;
+    }
+    55% {
+        height: 20px;
+        width: 20px;
+    }
+    65% {
+        height: 0px;
+        width: 0px;
+    }
+}

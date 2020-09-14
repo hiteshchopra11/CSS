@@ -28,7 +28,7 @@
     border-radius: 50%;
 }
 
-.sky {
+.sky_div {
     position: absolute;
     z-index: 0;
     top: 0;

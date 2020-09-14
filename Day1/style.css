@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700 &display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700 &display=swap");
 html,
 body {
     height: 100%;
@@ -18,9 +18,9 @@ body {
     flex-direction: column;
     height: 400px;
     width: 400px;
-    background: #43389F;
-    background: -webkit-gradient(linear, left bottom, right top, from(#43389F), to(#4ec6ca));
-    background: linear-gradient(to top right, #43389F 0%, #4ec6ca 100%);
+    background: #43389f;
+    background: -webkit-gradient( linear, left bottom, right top, from(#43389f), to(#4ec6ca));
+    background: linear-gradient(to top right, #43389f 0%, #4ec6ca 100%);
 }
 
 .root_child_horizontal {
@@ -90,10 +90,10 @@ body {
     padding: 0;
     word-spacing: 0;
     text-align: center;
-    font-family: 'Courier Prime', monospace;
+    font-family: "Courier Prime", monospace;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime &display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime &display=swap");
 .challenge {
     font-size: 27.5px;
     margin: -20px 0 0;
@@ -101,5 +101,5 @@ body {
     word-spacing: 0;
     color: #f0f0f0;
     text-align: center;
-    font-family: 'Courier Prime', monospace;
+    font-family: "Courier Prime", monospace;
 }
