@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap");
+html,
+body {
+    height: 100%;
+}
+
+.root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.root_child {
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #42a7a1;
+    height: 150px;
+    width: 150px;
+}
+
+.statistics {
+    border-radius: 1px;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.1);
+    height: 75px;
+    width: 110px;
+    background-color: white;
+}
+
+.weekly_report {
+    border-radius: 1px 1px 0 0;
+    display: flex;
+    align-content: center;
+    justify-self: center;
+    height: 25px;
+    width: 110px;
+    background-color: #f1ba64;
+}
+
+.graph {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50px;
+    width: 110px;
+}
+
+.days {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.days>p {
+    position: relative;
+    margin: 3.8px;
+    top: 0px;
+    font-size: 4px;
+    color: #948888;
+}
+
+.box1,
+.box2,
+.box3 {
+    border-bottom: 0.5px solid rgb(236, 229, 229);
+    margin-top: 2px;
+    height: 14px;
+    width: 80%;
+}
+
+.box1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.box2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.box3 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.views {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2px;
+}
+
+.purchases {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2px;
+}
+
+.views>p {
+    font-size: 4px;
+}
+
+.purchases>p {
+    margin-right: -3px;
+    font-size: 4px;
+}
+
+.views>div {
+    border-radius: 2px;
+    margin-right: 2px;
+    height: 1.5px;
+    width: 6px;
+    background-color: #fa7373;
+}
+
+.purchases>div {
+    border-radius: 2px;
+    margin-right: 2px;
+    height: 1.5px;
+    width: 6px;
+    background-color: #7ba2ff;
+}
+
+.flex_item1 {
+    height: 25px;
+    width: 50%;
+    margin: 0px;
+    margin-top: 1px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    margin-left: 5px;
+    flex-direction: column;
+}
+
+.flex_item2 {
+    height: 25px;
+    width: 50%;
+    margin: 0px;
+    display: flex;
+    align-items: flex-end;
+    margin-right: 5px;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.weeklyP,
+.dateP,
+.amountP,
+.revenueP {
+    font-family: "Open Sans", sans-serif;
+    margin: 0%;
+    color: white;
+}
+
+.weeklyP {
+    font-weight: 600;
+    margin-top: 4px;
+    font-size: 6px;
+    margin-bottom: -18px;
+}
+
+.dateP {
+    font-weight: 600;
+    font-size: 4.5px;
+}
+
+.revenueP {
+    font-weight: 600;
+    margin-top: 6px;
+    margin-bottom: -19px;
+    font-size: 4.5px;
+}
+
+.amountP {
+    font-weight: 600;
+    font-size: 6px;
+}
+
+.dot1,
+.dot2,
+.dot3,
+.dot4,
+.dot5,
+.dot6,
+.dot7 {
+    position: relative;
+    background-color: #fa7373;
+    height: 2px;
+    width: 2px;
+    border-radius: 50%;
+}
+
+.dot1 {
+    bottom: 0px;
+}
+
+.dot2 {
+    left: 10px;
+    bottom: 3px;
+}
+
+.dot3 {
+    left: 22px;
+}
+
+.dot4 {
+    left: 34px;
+    bottom: 3px;
+}
+
+.dot5 {
+    left: 46px;
+    bottom: -2px;
+}
+
+.dot6 {
+    left: 58px;
+    bottom: -3px;
+}
+
+.dot7 {
+    bottom: 1px;
+    left: 72px;
+}
+
+.box3>div {
+    background-color: #7ba2ff;
+}
