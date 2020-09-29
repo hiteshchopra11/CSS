@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,11 +14,15 @@
         <div class="root_div">
             <div class="profile">
                 <div class="details">
-                    <div class="img"></div>
-                    <p class="name"></p>
-                    <p class="profession"></p>
-                    <div class="follow"></div>
-                    <div class="message"></div>
+                    <img class="img" src="https://100dayscss.com/codepen/jessica-potter.jpg" alt="Paris"></img>
+                    <p class="name">Jessica Potter</p>
+                    <p class="profession">Visual Artist</p>
+                    <div class="follow" onmouseover="changetextcolor('#FFFFFF',0)" onmouseout="changetextcolor('#786450',0)">
+                        <p class="flwmsg">Follow</p>
+                    </div>
+                    <div class="message" onmouseover="changetextcolor('#FFFFFF',1)" onmouseout="changetextcolor('#786450',1)">
+                        <p class="flwmsg">Message</p>
+                    </div>
                 </div>
                 <div class="data">
                     <div class="posts">
@@ -37,6 +42,7 @@
 
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
